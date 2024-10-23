@@ -26,10 +26,10 @@ function exportGroupsAsPSD(trim, outputFolder) {
             newColorMode = NewDocumentMode.CMYK;
             break;
         case DocumentMode.GRAYSCALE:
-            newColorMode = newDocumentMode.GRAYSCALE;
+            newColorMode = NewDocumentMode.GRAYSCALE;
             break;
         case DocumentMode.LAB:
-            newColorMode = newDocumentMode.LAB;
+            newColorMode = NewDocumentMode.LAB;
             break;
         case DocumentMode.BITMAP:
             newColorMode = NewDocumentMode.BITMAP;
